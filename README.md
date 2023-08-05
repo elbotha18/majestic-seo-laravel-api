@@ -26,7 +26,8 @@ use Elbotha18\Majestic\ApiService;
 
 private function getIndexItemInfo() {
     $apiKey = config('services.majestic.api_key');
-    $majesticService = new ApiService($apiKey);
+    $majesticService = new ApiService($apiKey); // live
+    // $majesticService = new ApiService($apiKey, $sandbox = true); // dev
     
     $string_urls = "example.com, example2.com, example3.com"; // string format urls
     $parameters = $this->prepareItemsParameter($string_urls); // gets items count and structures each item
