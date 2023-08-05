@@ -1,0 +1,24 @@
+{
+    "name": "elbotha18/majetic-seo-laravel-api",
+    "description": "A Laravel package for integrating with the Majestic SEO API, allowing you to easily retrieve and analyze SEO metrics and data for your websites.",
+    "type": "library",
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Elbotha18\\Majestic\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "elbotha18",
+            "email": "elbotha18@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra" : {
+        "version": "1.0.0"
+    }
+}
