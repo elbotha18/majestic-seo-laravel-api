@@ -3,7 +3,7 @@
     "description": "A Laravel package for integrating with the Majestic SEO API, allowing you to easily retrieve and analyze SEO metrics and data for your websites.",
     "type": "library",
     "require": {
-        "php": "^7.4"
+        "php": "^7.4 | ^8.0 | ^8.1"
     },
     "autoload": {
         "psr-4": {
