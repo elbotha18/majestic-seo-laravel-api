@@ -7,7 +7,7 @@ This package provides a convenient way to interact with the Majestic SEO API in 
 You can install the package via Composer:
 
 ```bash
-composer require elbotha18/majestic-seo-laravel-api
+composer require elbot/majestic-seo-laravel-api
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ First, make sure you have configured your Majestic API key in your Laravel confi
 Create an instance of MajesticService with your API key, then prepare the parameters required for command and the call the command:
 (Note, the "app_api_key" and "cmd" will be added)
 ```php
-use Elbotha18\Majestic\ApiService;
+use Elbot\Majestic\ApiService;
 
 private function getIndexItemInfo() {
     $apiKey = config('services.majestic.api_key');
