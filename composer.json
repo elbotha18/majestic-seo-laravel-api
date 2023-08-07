@@ -7,7 +7,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Elbotha18\\Majestic\\": "src/"
+            "Elbot\\Majestic\\": "src/"
         }
     },
     "license": "MIT",
