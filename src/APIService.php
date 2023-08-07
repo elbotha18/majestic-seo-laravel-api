@@ -1,6 +1,6 @@
 <?php 
 
-namespace Elbotha18\Majestic;
+namespace Elbot\Majestic;
 
 use Illuminate\Support\Facades\Http;
 
